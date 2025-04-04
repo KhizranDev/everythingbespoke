@@ -1,0 +1,425 @@
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>#title</title>
+<link rel="stylesheet" href="http://phptopdf.com/bootstrap.css">
+<style>
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+body, h1, h2, h3, h4, h5, h6{
+    font-family: 'sans-serif', serif;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 60px;
+    width: 1170px;
+}
+.row::after {
+    clear: both;
+}
+.row::after, .row::before {
+    content: " ";
+    display: table;
+}
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.col-xs-6 {
+    width: 50%;
+}
+.col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    float: left;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+h1 {
+    font-size: 36px;
+}
+h1, h2, h3 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: inherit;
+    font-family: 'Bree Serif', serif;
+    font-weight: 500;
+    line-height: 1.1;
+}
+a {
+    color: #428bca;
+    text-decoration: none;
+}
+a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.text-right {
+    text-align: right;
+}
+h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small {
+    font-size: 65%;
+}
+.h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, .h4 .small, .h4 small, .h5 .small, .h5 small, .h6 .small, .h6 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small, h4 .small, h4 small, h5 .small, h5 small, h6 .small, h6 small {
+    color: #999;
+    font-weight: 400;
+    line-height: 1;
+}
+.small, small {
+    font-size: 85%;
+}
+.col-xs-5 {
+    width: 50%;
+}
+.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    float: left;
+}
+.panel-default {
+    border-color: #ddd;
+}
+.panel {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+.panel-default > .panel-heading {
+    background-color: #f5f5f5;
+    border-color: #ddd;
+    color: #333;
+}
+.panel-heading {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 10px 15px;
+}
+h4, h4 {
+    font-size: 18px;
+}
+h4, h5, h6 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.panel-body::after, .panel-body::before {
+    content: " ";
+    display: table;
+}
+.panel-body::after {
+    clear: both;
+}
+.panel-body {
+    padding: 15px;
+}
+p {
+    margin: 0 0 10px;
+}
+.col-xs-offset-2 {
+    margin-left: 16.6667%;
+}
+.panel-default h4 {
+    margin-top: 8px;;
+}
+.panel-body p {
+    font-size: 14px;
+}
+.table-bordered, .table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    border: 1px solid #ddd;
+}
+table {
+    background-color: transparent;
+    margin-bottom: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.table > caption + thead > tr:first-child > td, .table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > td, .table > thead:first-child > tr:first-child > th {
+    border-top: 0 none;
+}
+.table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    border-bottom-width: 2px;
+}
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    border-top: 1px solid #ddd;
+    line-height: 1.42857;
+    padding: 8px;
+    vertical-align: top;
+}
+th {
+    text-align: left;
+}
+.col-xs-offset-8 {
+    margin-left: 66.6667%;
+}
+.col-xs-2 {
+    width: 16.6667%;
+}
+b, strong {
+    font-weight: 700;
+}
+.panel-info {
+    border-color: #bce8f1;
+}
+.panel-info > .panel-heading {
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+    color: #31708f;
+}
+.panel-info h4 {
+    margin-top: 8px;
+    text-transform: uppercase;
+}
+.col-xs-7 {
+    width: 50%;
+}
+.address {
+    font-size: 17px;
+}
+.bottom-address{
+    font-size: 17px;
+    text-align: center;
+}
+.invoice-info h1 {
+    margin-left: 220px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #4F90BB;
+    font-size: 45px;
+}
+.invoice-heading h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4F90BB;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.first-col h4 {
+    margin-right: -50px;
+    text-align: right;
+    text-transform: uppercase;
+}
+.second-col h4 {
+    text-align: right;
+    text-transform: uppercase;
+}
+.table-bordered thead th h4 {
+    color: #31708f;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+.table-bordered thead th {
+    background: #d9edf7;
+}
+.notice p {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.due-amount-1 {
+    width: 30%;
+    padding-top: 5px;
+}
+.due-amount-1 strong {
+    font-size: 24px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.due-amount-2 {
+    width: 20%;
+    float: right;
+    padding-top: 5px;
+}
+.due-amount-2 strong {
+    font-size: 24px;
+    font-weight: 600;
+}
+.panel-info .panel-body p {
+    font-size: 16px;
+}
+.second-col #invoice-no{
+    margin-right: -1px;
+    font-weight: bold;
+    font-family: 'Tahoma';
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-xs-12 invoice-heading">
+            <h1>Invoice</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-6 invoice-info">
+
+            <p class="address">
+                <label style='font-size: large;'>Tahir</label><br>
+                feedbackjabelvoice@gmail.com<br>
+                Pakistan<br>
+            </p>
+        </div>
+        <div class="col-xs-6 invoice-info">
+
+            <h1>
+                <a href="#">
+
+                </a>
+            </h1>
+
+            <div class="row">
+                <div class="col-xs-6">
+                    <div class="first-col">
+                        <h4>Invoice No.</h4>
+                        <h4>Date</h4>
+                        <h4>Due Date</h4>
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                    <div class="second-col">
+                        <h4 id="invoice-no">0253/20170101-15/14</h4>
+                        <h4>19/09/2016</h4>
+                        <h4>19/09/2016</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>
+                <h4>S.#</h4>
+            </th>
+            <th>
+                <h4>Description</h4>
+            </th>
+            <th>
+                <h4 class="text-right">Period</h4>
+            </th>
+            <th>
+                <h4 class="text-right">Duration</h4>
+            </th>
+            <th>
+                <h4 class="text-right">Rate</h4>
+            </th>
+            <th>
+                <h4 class="text-right">Amount</h4>
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1.</td>
+            <td>Indian Premium</td>
+            <td class="text-right">1-July-2016 to 31-July-2016</td>
+            <td class="text-right">150 mins</td>
+            <td class="text-right">0.0009</td>
+            <td class="text-right">135</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Indian Premium</td>
+            <td class="text-right">1-July-2016 to 31-July-2016</td>
+            <td class="text-right">150 mins</td>
+            <td class="text-right">0.0009</td>
+            <td class="text-right">135</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Indian Premium</td>
+            <td class="text-right">1-July-2016 to 31-July-2016</td>
+            <td class="text-right">150 mins</td>
+            <td class="text-right">0.0009</td>
+            <td class="text-right">135</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <div class="row text-right">
+        <div class="col-xs-6 notice">
+            <p>Time Zone : GMT 00 <br> Note: All payment will be made in Vdigit Company Bank Account</p>
+        </div>
+        <div class="col-xs-4 due-amount-1">
+            <p>
+                <strong>
+                    Balance Due
+                </strong>
+            </p>
+        </div>
+        <div class="col-xs-2 due-amount-2">
+            <p>
+                <strong>
+                    $ 168.19220
+                </strong>
+            </p>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-xs-6">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h4>Mashrek Bank :</h4>
+                </div>
+                <div class="panel-body">
+                    <p>Account Name : Vdigit FZE</p>
+                    <p>AED Account No : 019100054810, IBAN : AE380330000019100054810</p>
+                    <p>USD Account No : 019100054836, IBAN : AE150330000019100054836</p>
+                    <p>Swift Code : BOMLAEAD</p>
+                    <p>Bank Address : Mashreq Bank Dubai UAE P.O. Box 1250</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-6">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h4>ENBD :</h4>
+                </div>
+                <div class="panel-body">
+                    <p>Account Name : Vdigit FZE</p>
+                    <p>AED Account No : 1015102997501, IBAN : AE560260001015102997501</p>
+                    <p>USD Account No : 1025102997502, IBAN : AE640260001025102997502</p>
+                    <p>Swift Code : EBILAEAD</p>
+                    <p>Bank Address : Group Head Office Branch,UAE</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12">
+            <p class="bottom-address">
+                billing@vdigit.net &nbsp; www.vdigit.net &nbsp; Mezzanine Floor, Amenity Centre, Tower# 1, Office# 8, Ras Al Khaimah, UAE
+            </p>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+[24-Feb-2017 07:56:59 UTC] PHP Fatal error:  Call to undefined function Dompdf\Adapter\mb_strtolower() in /home/vdigit458/public_html/portal/dompdf/dompdf/src/Adapter/CPDF.php on line 178
+[24-Feb-2017 08:05:55 UTC] PHP Warning:  require_once(/home/vdigit458/public_html/portal/dompdf/dompdf/lib/php-font-lib/src/FontLib/Autoloader.php): failed to open stream: No such file or directory in /home/vdigit458/public_html/portal/dompdf/dompdf/autoload.inc.php on line 20
+[24-Feb-2017 08:05:55 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/vdigit458/public_html/portal/dompdf/dompdf/lib/php-font-lib/src/FontLib/Autoloader.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/vdigit458/public_html/portal/dompdf/dompdf/autoload.inc.php on line 20
+[24-Feb-2017 08:07:40 UTC] PHP Warning:  require_once(/home/vdigit458/public_html/portal/dompdf/dompdf/public_html/portal/dompdf/dompdf/lib/html5lib/Parser.php): failed to open stream: No such file or directory in /home/vdigit458/public_html/portal/dompdf/dompdf/autoload.inc.php on line 19
+[24-Feb-2017 08:07:40 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/vdigit458/public_html/portal/dompdf/dompdf/public_html/portal/dompdf/dompdf/lib/html5lib/Parser.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/vdigit458/public_html/portal/dompdf/dompdf/autoload.inc.php on line 19
+[24-Feb-2017 08:09:46 UTC] PHP Warning:  require_once(/home/vdigit458/public_html/portal/dompdf/dompdf/lib/php-font-lib/src/FontLib/Autoloader.php): failed to open stream: No such file or directory in /home/vdigit458/public_html/portal/dompdf/dompdf/autoload.inc.php on line 21
+[24-Feb-2017 08:09:46 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/vdigit458/public_html/portal/dompdf/dompdf/lib/php-font-lib/src/FontLib/Autoloader.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/vdigit458/public_html/portal/dompdf/dompdf/autoload.inc.php on line 21
+[24-Feb-2017 08:14:26 UTC] PHP Warning:  require_once(/home/vdigit458/public_html/portal/dompdf/dompdf/lib/php-font-lib/src/FontLib/Autoloader.php): failed to open stream: No such file or directory in /home/vdigit458/public_html/portal/dompdf/dompdf/autoload.inc.php on line 21
+[24-Feb-2017 08:14:26 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/vdigit458/public_html/portal/dompdf/dompdf/lib/php-font-lib/src/FontLib/Autoloader.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/vdigit458/public_html/portal/dompdf/dompdf/autoload.inc.php on line 21
+[24-Feb-2017 08:20:22 UTC] PHP Warning:  require_once(/home/vdigit458/public_html/portal/dompdf/dompdf/lib/php-svg-lib/src/autoload.php): failed to open stream: No such file or directory in /home/vdigit458/public_html/portal/dompdf/dompdf/autoload.inc.php on line 22
+[24-Feb-2017 08:20:22 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/vdigit458/public_html/portal/dompdf/dompdf/lib/php-svg-lib/src/autoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/vdigit458/public_html/portal/dompdf/dompdf/autoload.inc.php on line 22
+[24-Feb-2017 08:22:40 UTC] PHP Fatal error:  Call to undefined function Dompdf\mb_internal_encoding() in /home/vdigit458/public_html/portal/dompdf/dompdf/src/Dompdf.php on line 274
+[24-Feb-2017 08:31:28 UTC] PHP Fatal error:  Call to undefined function Dompdf\mb_internal_encoding() in /home/vdigit458/public_html/portal/dompdf/dompdf/src/Dompdf.php on line 274
+[24-Feb-2017 08:33:27 UTC] PHP Fatal error:  Call to undefined function Dompdf\mb_internal_encoding() in /home/vdigit458/public_html/portal/dompdf/dompdf/src/Dompdf.php on line 274
+[24-Feb-2017 10:49:42 UTC] PHP Fatal error:  Call to undefined function Dompdf\mb_internal_encoding() in /home/vdigit458/public_html/portal/dompdf/dompdf/src/Dompdf.php on line 274
+[24-Feb-2017 12:11:29 UTC] PHP Fatal error:  Call to undefined method Dompdf\Dompdf::DOMPDF_ENABLE_REMOTE() in /home/vdigit458/public_html/portal/dompdf/index.php on line 15
+[24-Feb-2017 12:13:14 UTC] PHP Fatal error:  Class 'Options' not found in /home/vdigit458/public_html/portal/dompdf/index.php on line 15
+[02-Mar-2017 12:11:54 UTC] PHP Fatal error:  Uncaught exception 'Dompdf\Exception' with message 'Min/max width is undefined for table rows' in /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/TableRow.php:72
+Stack trace:
+#0 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(901): Dompdf\FrameReflower\TableRow->get_min_max_width()
+#1 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(239): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+#2 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(901): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+#3 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(239): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+#4 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(901): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+#5  in /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/TableRow.php on line 72
+[02-Mar-2017 12:17:41 UTC] PHP Fatal error:  Uncaught exception 'Dompdf\Exception' with message 'Min/max width is undefined for table rows' in /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/TableRow.php:72
+Stack trace:
+#0 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(901): Dompdf\FrameReflower\TableRow->get_min_max_width()
+#1 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(239): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+#2 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(901): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+#3 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(239): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+#4 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(901): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+#5  in /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/TableRow.php on line 72
+[02-Mar-2017 12:18:09 UTC] PHP Fatal error:  Uncaught exception 'Dompdf\Exception' with message 'Min/max width is undefined for table rows' in /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/TableRow.php:72
+Stack trace:
+#0 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(901): Dompdf\FrameReflower\TableRow->get_min_max_width()
+#1 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(239): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+#2 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(901): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+#3 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(239): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+#4 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(901): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+#5  in /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/TableRow.php on line 72
+[02-Mar-2017 12:20:11 UTC] PHP Fatal error:  Uncaught exception 'Dompdf\Exception' with message 'Min/max width is undefined for table rows' in /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/TableRow.php:72
+Stack trace:
+#0 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(901): Dompdf\FrameReflower\TableRow->get_min_max_width()
+#1 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(239): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+#2 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(901): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+#3 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(239): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+#4 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(901): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+#5  in /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/TableRow.php on line 72
+[02-Mar-2017 12:22:15 UTC] PHP Fatal error:  Uncaught exception 'Dompdf\Exception' with message 'Min/max width is undefined for table rows' in /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/TableRow.php:72
+Stack trace:
+#0 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(901): Dompdf\FrameReflower\TableRow->get_min_max_width()
+#1 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(239): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+#2 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(901): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+#3 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(239): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+#4 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(901): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+#5  in /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/TableRow.php on line 72
+[02-Mar-2017 13:19:44 UTC] PHP Fatal error:  Uncaught exception 'Dompdf\Exception' with message 'Min/max width is undefined for table rows' in /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/TableRow.php:72
+Stack trace:
+#0 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(901): Dompdf\FrameReflower\TableRow->get_min_max_width()
+#1 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(239): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+#2 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(901): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+#3 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(239): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+#4 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(901): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+#5  in /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/TableRow.php on line 72
+[02-Mar-2017 13:20:28 UTC] PHP Fatal error:  Uncaught exception 'Dompdf\Exception' with message 'Min/max width is undefined for table rows' in /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/TableRow.php:72
+Stack trace:
+#0 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(901): Dompdf\FrameReflower\TableRow->get_min_max_width()
+#1 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(239): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+#2 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(901): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+#3 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(239): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+#4 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(901): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+#5  in /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/TableRow.php on line 72
+[04-Mar-2017 21:30:56 Asia/Karachi] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/vdigit458/public_html/portal/include/database.php on line 18
+[07-Apr-2017 13:24:36 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 65552 bytes) in /home/vdigit458/public_html/portal/dompdf/dompdf/lib/Cpdf.php on line 3951
+[07-Apr-2017 13:24:40 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 65552 bytes) in /home/vdigit458/public_html/portal/dompdf/dompdf/lib/Cpdf.php on line 3951
+[07-Apr-2017 13:25:19 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 65552 bytes) in /home/vdigit458/public_html/portal/dompdf/dompdf/lib/Cpdf.php on line 3951
+[07-Apr-2017 13:26:21 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 65552 bytes) in /home/vdigit458/public_html/portal/dompdf/dompdf/lib/Cpdf.php on line 3951
+[07-Apr-2017 13:26:24 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 65552 bytes) in /home/vdigit458/public_html/portal/dompdf/dompdf/lib/Cpdf.php on line 3951
+[07-Apr-2017 13:26:48 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 65552 bytes) in /home/vdigit458/public_html/portal/dompdf/dompdf/lib/Cpdf.php on line 3951
+[07-Apr-2017 13:27:35 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 65552 bytes) in /home/vdigit458/public_html/portal/dompdf/dompdf/lib/Cpdf.php on line 3951
+[07-Apr-2017 13:29:40 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 65552 bytes) in /home/vdigit458/public_html/portal/dompdf/dompdf/lib/Cpdf.php on line 3951
+[07-Apr-2017 15:31:57 UTC] PHP Fatal error:  Uncaught exception 'Dompdf\Exception' with message 'Min/max width is undefined for table rows' in /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/TableRow.php:72
+Stack trace:
+#0 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(901): Dompdf\FrameReflower\TableRow->get_min_max_width()
+#1 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(239): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+#2 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(901): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+#3 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(239): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+#4 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(901): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+#5  in /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/TableRow.php on line 72
+[07-Apr-2017 15:32:05 UTC] PHP Fatal error:  Uncaught exception 'Dompdf\Exception' with message 'Min/max width is undefined for table rows' in /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/TableRow.php:72
+Stack trace:
+#0 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(901): Dompdf\FrameReflower\TableRow->get_min_max_width()
+#1 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(239): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+#2 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(901): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+#3 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/AbstractFrameReflower.php(239): Dompdf\FrameDecorator\AbstractFrameDecorator->get_min_max_width()
+#4 /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(901): Dompdf\FrameReflower\AbstractFrameReflower->get_min_max_width()
+#5  in /home/vdigit458/public_html/portal/dompdf/dompdf/src/FrameReflower/TableRow.php on line 72

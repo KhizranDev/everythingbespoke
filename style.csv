@@ -1,0 +1,166 @@
+style_type_id,fullname,isactive
+1,Flapped Patch,1
+1,Patch With Flapped,1
+1,Patch With out Flapped,1
+1,Pocket with Buttons,1
+2,Closed Seam 2 Big Buttons,1
+2,Closed Seam 3 Big Buttons,1
+2,Sham Cuff 3 Buttons,1
+2,ham Cuff 3 Kissing Buttons,1
+2,Sham Cuff 4 Buttons,1
+2,Sham Cuff 4 Kissing Buttons,1
+3,DB 2-1 Button,1
+3,DB 4-1 Button,1
+3,DB 6-1 Button,1
+4,DB 6-2 Button,1
+4,DB 6-3 Button,1
+4,Shawl Collar 2-1 Button,1
+4,Shawl Collar 2-2 Button,1
+5,Frogmouth Pocket,1
+5,Jetted Pocket,1
+5,No Pocket,1
+5,Rounded Pocket,1
+5,Slanted Pocket,1
+5,Straight Pocket,1
+6,Jetted Pocket W Button,1
+6,No Pocket,1
+6,Welted Pocket W Botton,1
+6,Welted Pocket W Botton,1
+6,suit-guide-63,1
+7,Framed Facing,1
+7,Plain Facing,1
+8,Normal Center Vent,1
+8,Normal No Vent,1
+8,Normal Side Vents,1
+9,Notch Lapel,1
+9,Peak Lapel,1
+10,Flapped Patch,1
+10,No Pockets,1
+10,Slanted Flap,1
+10,Slanted Jetted,1
+10,Straight Jetted,1
+10,Un Flapped Patch,1
+11,3cm Turnup,1
+11,4cm Turnup,1
+11,5cm Turnup,1
+11,No Turnup (Standard),1
+12,No Extension,1
+12,With Extension,1
+13,1 Pleat ( Reversed),1
+13,2 Pleates (Reversed),1
+13,2 Pleats ( Inward),1
+13,3 Pleats ( Reversed),1
+13,Plain Front No Dartseam,1
+13,Plain Front W Darsteam,1
+13,Plain Front W Dartseam,1
+14,Belt Loops,1
+14,Double Loops,1
+14,No Belt Loops,1
+14,Wide Loops,1
+15,SB 1 Button,1
+15,SB 2 Button,1
+15,SB 3 Button,1
+15,SB 3 Button,1
+15,SB 4 Button,1
+16,Mandarin Collar 1 Button,1
+16,Mandarin Collar 4 Button,1
+16,Mandarin Collar 5 Button,1
+17,Double Strip,1
+17,Single Strip,1
+17,Satin Lapel,1
+18,Cloth Back No Buckle,1
+18,Lining Back W Buckle,1
+19,Jetted 2 Pockets,1
+19,Jetted 3 Pocket,1
+19,Welt 2 Pockets,1
+19,Welt 3 pockets,1
+19,Welt 4 Pockets,1
+19,suit-guide-86,1
+20,4 Button Round Neck Pointed,1
+20,4 Button Round Neck Straight,1
+20,5 Button No Lapel Pointed,1
+20,5 Button No Lapels Pointed,1
+20,5 Button No Lapels Straight,1
+20,6 Button No Lapel Pointed,1
+20,6 Button No Lapels Rounded,1
+20,6-3 Button Shawl Collar Straight,1
+21,1mm Stitching,1
+21,5mm Stiching,1
+21,7mm Stitching,1
+21,Collar Bones,1
+21,No Collar Bones,1
+21,No Stitching (No Collar bones),1
+21,Removable Collar Bones,1
+22,Band Collar 1 Button,1
+22,Band Collar 2 Button,1
+22,Business Classic 1 Button,1
+22,Business Classic 2 Button,1
+22,Business Classic 2 Button,1
+22,Button Down 1 Button,1
+22,Button Down 2 Button,1
+22,Classic Spread 1 Button,1
+22,Classic Spread 2 Button,1
+22,Classis Pin Collar 1 Button Pointed,1
+22,Classis Pin Collar 1 Button,1
+22,Club Modern 1 Button Round,1
+22,Concealed Buttons 1 Button,1
+22,Concealed Buttons 2 Button,1
+22,English Spread 1 Button,1
+22,English Spread 2 Button,1
+22,Tab- Collar 1 Button Pointed,1
+22,Tab- Collar 1 Button Round,1
+22,Tab-Collar 1 Button Pointed,1
+22,Wing 1 Button,1
+23,Double Bevelled,1
+23,Double Round,1
+23,Double Straight,1
+23,Short Single Top Stitching,1
+23,Short Turn-up Double Top Stitching,1
+23,Short Turn-up Top Stitching,1
+23,Single Bevelled 1 Button,1
+23,Single Bevelled 2 Button,1
+23,Single Round 1 Button,1
+23,Single Round 2 Button,1
+23,Single Straight 1 Button,1
+23,Single Straight 2 Button,1
+24,Shirt-guide-23,1
+24,Shirt-guide-24,1
+24,Shirt-guide-32,1
+25,Shirt-guide-13,1
+25,Shirt-guide-14,1
+26,Block Font,1
+26,Front Left 2nd Button,1
+26,Front Left 3rd Button,1
+26,Front Left 4th Button,1
+26,Left Cuff,1
+26,Middle Pocket,1
+26,Right Cuff,1
+26,Script Font,1
+26,Top Pocket,1
+27,Bevelled Left Breast,1
+27,Bevelled with Plackets Left Breast,1
+27,No Pocket,1
+27,Pointed Left Breast,1
+27,Pointed with Flap and Button Left Breast,1
+27,Straight Left Breast,1
+27,Two Pointed with Flap,1
+27,Round Left Breast,1
+28,Center Pleat Flat Yoke,1
+28,Center Pleat Split Yoke,1
+28,Center Pleats with Loop Flat Yoke,1
+28,Plain Back Flat Yoke,1
+28,Plain Back Split Yoke,1
+28,Side Pleats Split Yoke,1
+28,Touch Pleat Flat Yoke,1
+28,Two Back Darts Flat Yoke,1
+28,Two Back Darts Split Yoke,1
+28,Shirt-guide-47,1
+29,Straight Bottom with Vents,1
+29,Straight Bottom,1
+29,Tail Bottom with Butterfly Gussett,1
+29,Tail Bottom,1
+30,Covered Placket,1
+30,Front Placket,1
+30,No Placket,1
+30,Pleated Front Full Length (White Only),1
+30,Pleated Front Hald Length (White Only),1

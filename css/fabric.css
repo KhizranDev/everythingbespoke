@@ -1,0 +1,19 @@
+.portfolio-area3 .portfolio-wrap .portfolio-list .single-portfolio-item .portfolio-bg1 {
+    background-image: url("../images/fabric/no-image.jpg");
+    height: 280px;
+}
+
+.portfolio-area3 .portfolio-wrap .portfolio-list .single-portfolio-item .article-name {
+    text-align: center;
+    margin-top: -8%;
+    margin-bottom: 20px;
+    font-weight: 510;
+}
+
+.portfolio-area3 .portfolio-wrap .portfolio-list .single-portfolio-item .category-name {
+    text-align: center;
+    margin-top: -8%;
+    font-weight: 510;
+    height: 40px;
+    max-height: 40px;
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e09e1f5e-959d-4d1b-a04b-2a346ebe4823" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/PHPMailer/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="ProjectId" id="1yQ7X8bk3iiB6rnT6KNjIXwRWgz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../digitizinglab" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\laragon\www\everythingbespoke\admin\include" />
+      <recent name="D:\laragon\www\everythingbespoke" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\laragon\www\everythingbespoke\admin\include\layout" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e09e1f5e-959d-4d1b-a04b-2a346ebe4823" name="Default Changelist" comment="" />
+      <created>1632171995051</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632171995051</updated>
+      <workItem from="1632171996306" duration="96112000" />
+      <workItem from="1633011497720" duration="3810000" />
+      <workItem from="1633085634584" duration="29667000" />
+      <workItem from="1633431059569" duration="3664000" />
+      <workItem from="1633596967324" duration="17597000" />
+      <workItem from="1633929061391" duration="70958000" />
+      <workItem from="1635149986538" duration="9914000" />
+      <workItem from="1635331439008" duration="18560000" />
+      <workItem from="1635843740433" duration="3614000" />
+      <workItem from="1635852660150" duration="3336000" />
+      <workItem from="1636116571344" duration="1053000" />
+      <workItem from="1636456109301" duration="6281000" />
+      <workItem from="1636638360452" duration="5426000" />
+      <workItem from="1653660691526" duration="2924000" />
+      <workItem from="1653850285611" duration="25000" />
+      <workItem from="1654111823858" duration="2724000" />
+      <workItem from="1659458827402" duration="3169000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
